@@ -1,8 +1,12 @@
+import UserResults from "../compenents/users/UserResults";
+import UserSearch from "../compenents/users/UserSearch";
+
 function Home() {
 	return (
-		<div>
-			<h1 className="text-6xl">Welcome</h1>
-		</div>
+		<>
+			<UserSearch />
+			<UserResults />
+		</>
 	);
 }
 
